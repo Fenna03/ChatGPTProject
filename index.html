@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matching Card Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Matching Card Game</h1>
+    <div id="current-player">Player 1's turn</div>
+    <div id="game-container">
+        <div id="player1-info" class="player-info">
+            <h2>Player 1 Score: <span id="player1-score">0</span></h2>
+        </div>
+        <div id="game-board"></div>
+        <div id="player2-info" class="player-info">
+            <h2>Player 2 Score: <span id="player2-score">0</span></h2>
+        </div>
+    </div>
+    <div id="win-screen" class="hidden">
+        <h2 id="winner-message"></h2>
+        <button id="replay-button">Play Again</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
